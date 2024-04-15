@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+.bg-image-full {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('senderozarza.jpg');
+}
+  
+.navbar {
+    background-color:#9CCC65 !important;
+}
+  
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important; 
+}
+  
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important; 
+}
+  
+.bg-green {
+    background-color: #9ccc65 !important;
+}
+
+.slogan{
+  color: white;
+}

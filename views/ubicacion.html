@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramos - Ubicación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  <link rel="stylesheet" href="/js/zarzastyle.css">    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="/css/ubicacionstyle.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9CCC65;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sendero Ecológico</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paramos.html">Paramos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="mapa col-lg-6">
+                    <div id="map" class="mapGraf"></div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Páramo de Ocetá y Sumapaz </h2>
+                    <p class="lead fw-normal text-muted mb-0">El Páramo de Ocetá se encuentra ubicado en el departamento de Boyacá, en la cordillera Oriental de los Andes, al sureste de Colombia. 
+                        El Páramo de Sumapaz está situado en los departamentos de Cundinamarca y Meta, también en la cordillera Oriental de los Andes, pero hacia el suroeste del país. 
+                        A pesar de su proximidad geográfica, estas dos regiones de páramo tienen ubicaciones ligeramente diferentes en Colombia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-green text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5 justify-content-around">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">SUMAPAZ - OCETÁ</span></h1>
+                </a>
+                <p>Explora la majestuosidad del Páramo de Ocetá y sumérgete en su biodiversidad única. Descubre la serenidad de este ecosistema natural y déjate inspirar por sus paisajes impresionantes.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Páramo de Sumapaz, Páramo de Ocetá, Colombia</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+57323 456789</p>
+                <p><i class="fa fa-envelope mr-2"></i>info@paramooceta.com - info@paramosumapaz.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-green text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="desing col-lg-6 text-center text-md-right">
+            <p class="m-0 text-white">Designed by Silvana</p>
+        </div>
+    </div>    
+    <!-- Footer End -->
+
+<script src="/js/ubicaciondinamico.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
